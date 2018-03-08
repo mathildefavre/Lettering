@@ -1,0 +1,131 @@
+
+body {
+  font-family: 'Krona One', sans-serif;
+
+}
+
+
+.char1 {
+  color: red;
+  font-size: 3em;
+}
+.char2 {
+  color: red;
+  font-size: 2em;
+}
+.char3 {
+  color: red;
+  font-size: 3em
+}
+.char4{
+  color: red;
+  font-size: 2em;
+}
+
+.char5{
+  color: red;
+  font-size: 2em;
+}
+
+.char6{
+  color: red;
+  font-size: 3em
+}
+
+.char7{
+  color: red;
+  font-size: 2em;
+}
+
+.char8 {
+  color: red;
+  font-size: 2em;
+}
+
+.char9 {
+  color: red;
+  font-size: 3em
+}
+
+.char10{
+  color: red;
+  font-size: 2em;
+}
+
+.char11{
+  color: red;
+  font-size: 2em;
+}
+
+.char12{
+  color: red;
+  font-size: 3em
+}
+
+.char13{
+  color: red;
+  font-size: 2em;
+}
+.char14 {
+  color: red;
+  font-size: 2em;
+}
+
+.char15 {
+  color: red;
+  font-size: 3em
+}
+
+.char16{
+  color: red;
+  font-size: 2em;
+}
+
+.char17{
+  color: red;
+  font-size: 2em;
+}
+
+.char18{
+  color: red;
+  font-size: 3em
+}
+
+.char19{
+  color: red;
+  font-size: 2em;
+}
+
+.char20{
+  color: red;
+  font-size: 3em
+}
+
+.char21{
+  color: red;
+  font-size: 2em;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  border: 1px solid #white;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.thumb {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}

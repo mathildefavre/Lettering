@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>This is about color</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/colorbox.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="scripts/jquery.lettering.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/jquery.colorbox-min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet">
+
+
+    <head>
+      <body>
+
+    <link rel="stylesheet" href="images">
+  </head>
+    <h1 class="fancy_title">This is about color</h1>
+    <div class="thumb">
+
+    <a class='gallery' href='images/image1.jpg'>
+    <img src="images/image1.jpg" alt="rouge"></a>
+    <a class='gallery' href='images/image2.jpg'>
+    <img src="images/image2.jpg" alt="soleil"></a>
+    <a class='gallery' href='images/image3.jpg'>
+    <img src="images/image3.jpg" alt="shoes"></a>
+  </div>
+
+  <script>
+    $(document).ready(function() {
+      $(".fancy_title").lettering();
+            });
+      jQuery('a.gallery').colorbox({ opacity:0.5, rel:'group1'});
+
+  </script>
+
+  </body>
+</html>
